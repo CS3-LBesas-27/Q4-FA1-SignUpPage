@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+  		<meta name="description" content="Q4FA1">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Leira N. Besas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+        <style>
+            form{
+                max-width: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 50px;
+                font-family: "Tajawal", sans-serif;
+                font-style: normal;
+                border: 10px solid black;
+                border-radius: 25px;
+                background-color: #FEC7B4;
+                font-size: 20px;
+                }
+            body{
+               background-color: #FFF3C7;
+            }
+            input[type=submit], input[type=reset] {
+                background-color: #FC819E;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+                font-family: "Tajawal", sans-serif;
+                font-style: normal;
+            }
+            input[type=submit]:hover, input[type=reset]:hover {
+                background-color: #FC819E;
+                border: 2px solid black;
+                color: white;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+                font-family: "Tajawal", sans-serif;
+                font-style: normal;
+            }
+            input[type=text],  input[type=Password],  input[type=email]{
+                font-size: 20px;
+                padding: 12px;
+            }
+            legend{
+                font-size: 30px;
+                font-style: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <legend> SIGN UP <img src="flower.webp" id="flow" style="width: 70px; float: right";></legend>
+            <br>
+            <label for="Name"> Name: </label>
+            <br>
+            <input type="text" id="Name" name="Name" required>
+            <br></br>
+
+            <label for="UserName"> Prefered Username: </label>
+            <br>
+            <input type="text" id="UserName" name="UserName" required>
+            <br></br>
+
+            <label for="Pass"> Password: </label>
+            <br>
+            <input type="Password" id="Pass" name="Pass" required>
+            <br></br>
+
+            <label for="ConfirmPass"> Confirm Password: </label>
+            <br>
+            <input type="Password" id="CPass" name="CPass" required>
+            <br></br>
+
+            <label for="email"> Email: </label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br></br>
+
+            <label for="Adress"> Adress: </label>
+            <br>
+            <input type="text" id="Adress" name="Adress" required>
+            <br></br>
+
+            <label for="Ph"> Interest: </label>
+            <br>
+            <input type="text" id="Ph" name="Ph">
+            <br></br>
+
+            <input type="submit" value="Sign up" id="sub">
+            <input type="reset" value="clear" id="res">
+
+        </form>
+    </body>
+    <script>
+    </script>
+
+</html>
